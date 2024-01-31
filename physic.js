@@ -119,7 +119,7 @@ right.addEventListener('touchend', () => {
   hero_right = false;
 })
 
-jump.addEventListener('click', (event) =>  {
+jump.addEventListener('touchstart', (event) =>  {
   if (!hero_jump && !hero_tumble_check) {
    hero_jump = true; 
   }
